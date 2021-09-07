@@ -1,0 +1,25 @@
+{
+  "name": "autotest",
+  "version": "1.0.0",
+  "description": "API automation test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha specs/e2eTest.js --reporter mochawesome"
+  },
+  "author": "Saumil Jain",
+  "dependencies": {
+    "ajv": "^6.12.4",
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chance": "^1.1.7",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21",
+    "log4js": "^6.3.0",
+    "mocha": "^8.4.0",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^6.2.2"
+  }
+}

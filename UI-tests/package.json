@@ -1,0 +1,18 @@
+{
+  "name": "com.tech.testcafe",
+  "version": "1.0.0",
+  "description": "Testcasfe Slack Automation Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/testcafe"
+  },
+  "author": "Saumil Jain",
+  "license": "MIT",
+  "devDependencies": {
+    "testcafe": "1.10.0"
+  },
+  "dependencies": {
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-test-logs": "^0.0.11"
+  }
+}

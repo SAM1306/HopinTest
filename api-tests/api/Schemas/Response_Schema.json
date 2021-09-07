@@ -1,0 +1,254 @@
+{
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "timestamp": {
+        "type": "string"
+      },
+      "customers": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "employees": {
+                "type": "integer"
+              },
+              "contactInfo": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "email"
+                ]
+              },
+              "size": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "employees",
+              "contactInfo",
+              "size"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "employees": {
+                "type": "integer"
+              },
+              "contactInfo": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "email"
+                ]
+              },
+              "size": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "employees",
+              "contactInfo",
+              "size"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "employees": {
+                "type": "integer"
+              },
+              "contactInfo": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "email"
+                ]
+              },
+              "size": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "employees",
+              "contactInfo",
+              "size"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "employees": {
+                "type": "integer"
+              },
+              "contactInfo": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "email"
+                ]
+              },
+              "size": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "employees",
+              "contactInfo",
+              "size"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "employees": {
+                "type": "integer"
+              },
+              "contactInfo": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "email"
+                ]
+              },
+              "size": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "employees",
+              "contactInfo",
+              "size"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "employees": {
+                "type": "integer"
+              },
+              "contactInfo": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "email"
+                ]
+              },
+              "size": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "employees",
+              "contactInfo",
+              "size"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "name",
+      "timestamp",
+      "customers"
+    ]
+  }
